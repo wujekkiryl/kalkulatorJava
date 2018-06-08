@@ -49,7 +49,7 @@
             <ToggleGroup fx:id="miary" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton fx:id="st" layoutX="220.0" layoutY="80.0" mnemonicParsing="false" text="stopnie" toggleGroup="$miary" />
+      <RadioButton fx:id="st" layoutX="220.0" layoutY="80.0" mnemonicParsing="false" selected="true" text="stopnie" toggleGroup="$miary" />
       <Button fx:id="sin" layoutX="210.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#insertSin" text="Sin()">
          <font>
             <Font name="System Italic" size="13.0" />
@@ -60,7 +60,5 @@
             <Font name="System Italic" size="13.0" />
          </font>
       </Button>
-      <TextArea fx:id="konsola" layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0" />
-      <Button fx:id="btprint" layoutX="220.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#printTab" text="print" />
    </children>
 </Pane>
